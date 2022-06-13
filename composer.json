@@ -1,0 +1,16 @@
+{
+    "name": "netlogix/nlxshopwarehelpers",
+    "description": "Helpers for esier development with shopware 5",
+    "authors": [
+        {
+            "name": "netlogix GmbH & Co. KG",
+            "email": "websolutions@netlogix.de"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "shopware/shopware": "^5.6"
+    }
+}
