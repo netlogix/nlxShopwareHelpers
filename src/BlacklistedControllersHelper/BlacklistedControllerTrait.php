@@ -19,8 +19,7 @@ trait BlacklistedControllerTrait
 
     public function isBlacklistedController(\Enlight_Controller_Action $controller): bool
     {
-        $blacklistedControllers = $this->getBlacklistedControllers();
-        return \in_array($controller->Request()->getControllerName(), $blacklistedControllers);
+        return $this->isBlacklistedControllerName($controller->Request()->getControllerName());
     }
 
     /**
