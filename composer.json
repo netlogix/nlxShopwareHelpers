@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nlxShopwareHelpers\\BlacklistedControllersHelper\\": "src/"
+            "nlxShopwareHelpers\\": "src/"
         }
     },
     "config": {
